@@ -1,0 +1,184 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container { /**/
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after { /**/
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a { /**/
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover { /**/
+  color: #E95853;
+}
+
+.text-uppercase {/**/
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+/*Dando formato a header*/
+
+header div {
+  padding: 10px;
+  text-align: center;
+}
+header div a {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+header div img {
+  height: 40px;
+  width: 40px;
+  margin-left: 60%;
+}
+
+/*Dando formato a la primera section*/
+.part1 {
+  background-image: url("../assets/images/bg-home.jpg");
+  color: white;
+  text-align: center;
+}
+
+.part1 div {
+  height: 430px;
+}
+
+.part1 h2 {
+  font-size: 20px;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.part1 h1 {
+  font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.part1 p {
+  font-size: 13px;
+  margin-bottom: 70px;
+}
+
+.part1 a {
+  background-color: rgb(46, 204, 113);
+  color: white;
+  font-size: 15px;  
+  padding: 10px;
+}
+
+/*Dando formato a la psegunda section*/
+.part2 {
+  background-color: rgb(241, 124, 114);
+  color: white;
+  text-align: center;
+}
+
+.option1, .option2, .option3 {
+  display: inline-block;
+  margin: 60px;
+}
+
+.option1 img, .option2 img, .option3 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.part2 h2 {
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.part2 h5, .part2 h6 {
+  margin: 0;
+}
+
+/*Dando formato a la tercera section*/
+.part3 {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.img-part3 {
+  width: 800px;
+}
+
+.part3 h2 {
+  font-size: 30px;
+}
+
+.part3 div div {
+  display: inline-block;
+  width: 25%;
+  margin: 18px;
+}
+
+.part3 div div img {
+  width: 100%;
+}
+
+/*Dando formato al footer*/
+footer {
+  background-color: rgb(55, 59, 71);
+  color: rgb(155, 156, 162);
+  text-align: center;
+}
