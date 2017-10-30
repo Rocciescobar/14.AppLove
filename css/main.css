@@ -74,6 +74,15 @@ a:hover { /**/
 
 /*Dando formato a header*/
 
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
 header div {
   padding: 10px;
   text-align: center;
@@ -85,7 +94,6 @@ header div a {
 }
 
 header div img {
-  height: 40px;
   width: 40px;
   margin-left: 60%;
 }
@@ -95,6 +103,7 @@ header div img {
   background-image: url("../assets/images/bg-home.jpg");
   color: white;
   text-align: center;
+  margin-top: 50px;
 }
 
 .part1 div {
